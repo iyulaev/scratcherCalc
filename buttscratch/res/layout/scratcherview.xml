@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="#fefefe"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<!-- This Linear Layout is just the parent for...everything. -->
+	<LinearLayout
+		android:id="@+id/scratcherview_main_ll"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1.0"
+		android:paddingLeft="5dp" 
+		android:paddingRight="5dp" 
+		android:paddingTop="10dp" 
+		android:paddingBottom="10dp" >
+	 
+		<TextView
+			android:id="@+id/scratcherview_scratchername"
+			android:text="Name of the Scratcher"
+			android:textColor="#000000"
+			android:textSize="20sp"
+			android:gravity="center_horizontal"
+			android:background="#fefefe"
+			android:paddingBottom="15dp"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"/>
+			
+		<!-- Nothing but a solid horizontal line -->
+		<LinearLayout
+		android:id="@+id/scratcherlistlist_line_n1"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:background="#000000"
+		android:layout_height="2dp"
+		android:paddingLeft="15dp" 
+		android:paddingRight="15dp" 
+		android:paddingTop="20dp" 
+		android:paddingBottom="20dp" ></LinearLayout>
+		
+	<!-- Display Expected Value Text & Icon Here -->
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:background="#fefefe"
+		android:layout_height="wrap_content"
+		android:layout_weight="1.0"
+		android:paddingLeft="15dp" 
+		android:paddingRight="15dp" 
+		android:paddingTop="40dp" 
+		android:paddingBottom="20dp"
+		android:gravity="left" >
+		<TextView
+			android:id="@+id/scratcherview_expectedvaluetext"
+			android:text="Expected Value: 0.00"
+			android:textColor="#000000"
+			android:textSize="20sp"
+			android:gravity="left"
+			android:background="#fefefe"
+			android:paddingBottom="15dp"
+			android:layout_width="wrap_content" 
+			android:layout_weight="0.8"
+			android:layout_height="wrap_content"/>
+		<ImageView
+			android:id="@+id/scratcherview_expectedvalueicon"
+			android:src="@drawable/exclamation_small"
+			android:layout_height="25dp"
+			android:layout_width="wrap_content"
+			android:layout_weight="0.2"
+			android:gravity="left" />
+	</LinearLayout>
+	
+	<!-- Display Jackpot Odds Value Text & Icon Here -->
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:background="#fefefe"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.2"
+		android:paddingLeft="15dp" 
+		android:paddingRight="15dp" 
+		android:paddingTop="20dp" 
+		android:paddingBottom="20dp"
+		android:gravity="left" >
+		<TextView
+			android:id="@+id/scratcherview_jackpotoddstext"
+			android:text="Jackpot Odds (vs Starting): 0.00"
+			android:textColor="#000000"
+			android:textSize="20sp"
+			android:gravity="left"
+			android:background="#fefefe"
+			android:paddingBottom="15dp"
+			android:layout_width="wrap_content"
+			android:layout_weight="0.8"
+			android:layout_height="wrap_content"/>
+		<ImageView
+			android:id="@+id/scratcherview_jackpotoddsicon"
+			android:src="@drawable/exclamation_small"
+			android:layout_height="25dp"
+			android:layout_width="wrap_content"
+			android:layout_weight="0.2"
+			android:gravity="left" />
+	</LinearLayout>
+	
+	<!-- Display Warnings Value Text & Icon Here -->
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:background="#fefefe"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.2"
+		android:paddingLeft="15dp" 
+		android:paddingRight="15dp" 
+		android:paddingTop="20dp" 
+		android:paddingBottom="20dp"
+		android:gravity="left" >
+		<TextView
+			android:id="@+id/scratcherview_warningstext"
+			android:text="No warnings for this Scratcher."
+			android:textColor="#000000"
+			android:textSize="20sp"
+			android:gravity="left"
+			android:background="#fefefe"
+			android:paddingBottom="15dp"
+			android:layout_weight="0.8"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<ImageView
+			android:id="@+id/scratcherview_warningsicon"
+			android:src="@drawable/exclamation_small"
+			android:layout_height="25dp"
+			android:layout_width="wrap_content"
+			android:layout_weight="0.2"
+			android:gravity="left" />
+	</LinearLayout>
+	<!-- Display URL here -->
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:background="#fefefe"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.2"
+		android:paddingLeft="15dp" 
+		android:paddingRight="15dp" 
+		android:paddingTop="20dp" 
+		android:paddingBottom="20dp"
+		android:gravity="left" >
+		<TextView
+			android:id="@+id/scratcherview_urltext"
+			android:text="CA Lottery Web Link"
+			android:textColor="#000000"
+			android:textSize="20sp"
+			android:gravity="left"
+			android:background="#fefefe"
+			android:paddingBottom="15dp"
+			android:layout_weight="1.0"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+		
+	</LinearLayout> <!-- Closer parent to everything LinearLayout -->
+		
+</ScrollView>

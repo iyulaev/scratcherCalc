@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#fefefe">
+
+  <TextView
+          android:text=" "
+          android:textColor="#000000"
+          android:textSize="26sp"
+          android:gravity="center_horizontal"
+          android:background="#fefefe"
+          android:layout_width="fill_parent" 
+          android:layout_height="20dp"/>
+    <Button
+    	 android:id="@+id/filter_viewall"
+    	 android:layout_height="wrap_content"
+	     android:layout_width="300dp"
+	     android:layout_gravity="center"
+	     android:textSize="20sp"
+	     android:paddingTop="5dp"
+	     android:paddingBottom="5dp"
+	     android:text="View All"/>
+	<Button
+    	 android:id="@+id/filter_view1"
+    	 android:layout_height="wrap_content"
+	     android:layout_width="300dp"
+	     android:layout_gravity="center"
+	     android:textSize="20sp"
+	     android:paddingTop="5dp"
+	     android:paddingBottom="5dp"
+	     android:text="View $1 Scratchers"/>
+	<Button
+    	 android:id="@+id/filter_view2"
+    	 android:layout_height="wrap_content"
+	      android:layout_width="300dp"
+	     android:layout_gravity="center"
+	     android:textSize="20sp"
+	     android:paddingTop="5dp"
+	     android:paddingBottom="5dp"
+	     android:text="View $2 Scratchers"/>
+    <Button
+    	 android:id="@+id/filter_view3"
+    	 android:layout_height="wrap_content"
+	      android:layout_width="300dp"
+	     android:layout_gravity="center"
+	     android:textSize="20sp"
+	     android:paddingTop="5dp"
+	     android:paddingBottom="5dp"
+	     android:text="View $3 Scratchers"/>
+	  <Button
+    	 android:id="@+id/filter_view5"
+    	 android:layout_height="wrap_content"
+	      android:layout_width="300dp"
+	     android:layout_gravity="center"
+	     android:textSize="20sp"
+	     android:paddingTop="5dp"
+	     android:paddingBottom="5dp"
+	     android:text="View $5 Scratchers"/>
+
+</LinearLayout>

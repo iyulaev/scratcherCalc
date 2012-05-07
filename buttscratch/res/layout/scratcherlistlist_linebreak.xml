@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Nothing but a solid horizontal line -->
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/scratcherlistlist_listitem"
+	  android:orientation="vertical"
+	  android:layout_width="fill_parent"
+	android:layout_height="2dp"
+  	android:background="#000000"
+	android:layout_weight="0.2"
+	android:paddingLeft="15dp" 
+	android:paddingRight="15dp" 
+	android:paddingTop="20dp" 
+	android:paddingBottom="20dp">
+    
+</LinearLayout>

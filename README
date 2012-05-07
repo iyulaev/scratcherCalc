@@ -1,0 +1,31 @@
+=-=-= SmartScratcher Project Readme =-=-=
+
+Contact: Ivan (ivan@yulaev.com)
+
+This is the top-level readme for the SmartScratch project. It will describe the project (very generally) and provide a (possibly inaccurate) code file layout.
+
+This was my first Android project - written some time ago. 
+
+Project Synopsis:
+Write a simple app that harvests scratcher ticket data from the CA lottery (and other states too!) web site. We can use this data to guess as to the expectation value of the scratchers tickets (of each type) and  thereby advise gamblers which tickets they should buy, to maximize their expected returns or to increase the likelihood of willing. Also, we should eliminate tickets where most (or all) of the jackpots have already been claimed.
+
+(Partial) Directory Structure:
+
+buttscratch: main Android project folder
+---\src: source code dir
+    ---\jettiy.smartscratcher: main SmartScratcher Package.
+        ---\SmartScratcher.java: Activity associated with entry point into SmartScratcher program
+		
+---\res: resources like layouts
+    ---\drawable*: icons and pictures used throughout the program
+	---\layout: XML layouts for the various UI elements of this program
+
+buttscratchTest: main Android Test project folder
+
+dev_docs: developer documentation, not to be released publically
+
+media: various non-code media, like icon sources. This isn't used by the project directly, rather, it is typically modified, scaled, and put into buttstratch\res\drawable*\
+
+server: code that will go onto the server for generating the text-based database
+
+[ End of File ]

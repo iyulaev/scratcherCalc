@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fefefe">
+
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="fill_parent" android:layout_height="200dp" android:layout_weight="0.00">
+      <ImageView
+      	android:id="@+id/main_logo_image"
+      	android:src="@drawable/logo_v1"
+      	android:layout_height="fill_parent"
+      	android:layout_width="fill_parent" />
+      <!--  <TextView
+          android:text=" "
+          android:textColor="#000000"
+          android:textSize="26sp"
+          android:gravity="center_horizontal"
+          android:background="#fefefe"
+          android:layout_width="fill_parent" 
+          android:layout_height="30dp"/>
+      <TextView
+          android:text="SmartScratcher"
+          android:textColor="#000000"
+          android:textSize="26sp"
+          android:gravity="center_horizontal"
+          android:background="#fefefe"
+          android:layout_width="fill_parent" 
+          android:layout_height="wrap_content"/>
+      <TextView
+          android:text=" "
+          android:textColor="#000000"
+          android:textSize="26sp"
+          android:gravity="center_horizontal"
+          android:background="#fefefe"
+          android:layout_width="fill_parent" 
+          android:layout_height="20dp"/>
+      <TextView
+          android:text="$$$"
+          android:textSize="32sp"
+          android:textStyle="bold"
+          android:gravity="center_horizontal"
+          android:textColor="#00bb00"
+          android:background="#fefefe"
+          android:layout_width="fill_parent" android:layout_height="wrap_content"/>-->
+  </LinearLayout>
+        
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.2"
+    android:paddingLeft="20dp" 
+    android:paddingRight="20dp" 
+    android:paddingTop="10dp" 
+    android:paddingBottom="10dp" >
+    <Button
+    	 android:id="@+id/update_button"
+    	 android:layout_height="wrap_content"
+	     android:layout_width="fill_parent"
+	     android:textSize="20sp"
+	     android:paddingTop="5dp"
+	     android:paddingBottom="5dp"
+	     android:text="Update Data"/>
+	<Button
+    	 android:id="@+id/browse_button"
+    	 android:layout_height="wrap_content"
+	     android:layout_width="fill_parent"
+	     android:textSize="20sp"
+	     android:paddingTop="5dp"
+	     android:paddingBottom="5dp"
+	     android:visibility="gone"
+	     android:text="Browse Scratchers >"/>
+	<ProgressBar
+		 android:layout_width="fill_parent"
+		 android:paddingTop="10dp"
+	     android:paddingBottom="10dp"
+		 android:layout_height="50dp"
+		 style="?android:attr/progressBarStyleHorizontal"
+		 android:id="@+id/browse_progressbar"
+		 android:max="100"
+		 android:visibility="gone"
+		 />
+    <Button
+    	 android:id="@+id/exit_button"
+    	 android:layout_height="wrap_content"
+	     android:layout_width="fill_parent"
+	     android:textSize="20sp"
+	     android:paddingTop="5dp"
+	     android:paddingBottom="5dp"
+	     android:text="Exit"/>
+  </LinearLayout>
+
+</LinearLayout>
